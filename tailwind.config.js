@@ -14,6 +14,7 @@ module.exports = {
   theme: {
     // extender el tema de tailwind, incluir estilos personalizados
     extend: {
+       gridTemplateColumns:{app:'minmax(18rem, 20rem) 1fr'},
 
         colors:{mandarina:'#DE6749'}
 
